@@ -10,13 +10,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar" style="margin-bottom: 20%;"><img src="images/profile-2.png" alt="" /></span>
+					<span class="image avatar" style="margin-bottom: 20%;" data-aos="fade-in"><img src="images/profile-2.png" alt="" /></span>
 					<h1 id="logo"><a href="#">Constanza Villagran</a></h1>
 					<p>Frontend Developer</br></p>
 				</header>
@@ -62,7 +63,17 @@
 										<h2>Hi there!</h2>
 										
 									</header>
-									<p>Soy Constanza, una Frontend Developer Junior viviendo en Santiago, Chile. Soy egresada de la segunda generación de <a href="https://www.laboratoria.la/">Laboratoria Chile</a>; allí cultivé mi pasión por el desarrollo web y el diseño. En 2017 comencé a trabajar en <a href="https://www.linkedin.com/company/appfactorychile/">Appfactory</a>, en donde continué ampliando mis capacidades desarrollando sitios en Wordpress y desarrollando mis primeras apps en Angular4. En 2018 trabajé en <a href="https://greenti.co/"> GreenTi</a>, en donde aprendí sobre Wordpress y a comunicarme con diferentes equipos de trabajo. Desde 2019 a 2021 trabajé en <a href="https://www.linkedin.com/company/kzteam/">KZ Team</a>, en donde volví a desarrollar en Angular. Actualmente me encuentro trabajando como desarrolladora freelance; siempre tratando de aprender algo nuevo. Cuando no estoy escribiendo código me gusta ver series, aprender nuevos idiomas y salir a pasear junto a mi familia :)</p>
+									<p>Soy Constanza, una Frontend Developer Junior viviendo en Santiago, Chile.
+										Soy egresada de la segunda generación de <a href="https://www.laboratoria.la/">Laboratoria Chile</a>;
+										allí cultivé mi pasión por el desarrollo web y el diseño. En 2017 comencé a trabajar en 
+										<a href="https://www.linkedin.com/company/appfactorychile/">Appfactory</a>, 
+										en donde continué ampliando mis capacidades desarrollando sitios en Wordpress y desarrollando mis primeras apps
+										 en Angular4.En 2018 trabajé en <a href="https://greenti.co/"> GreenTi</a>, en donde aprendí sobre Wordpress y 
+										 a comunicarme con diferentes equipos de trabajo. En 2019 comencé a trabajar en 
+										 <a href="https://wearekzteam.com//">KZ Team</a>, en donde volví a desarrollar en Angular.
+										Actualmente soy una de las personas a cargo de <a href="https://www.instagram.com/alpacat.cl/">Alpacat</a>, una agencia
+										digital que es parte de KZ Team.
+										Cuando no estoy escribiendo código me gusta ver series, aprender nuevos idiomas y salir a pasear junto a mi familia :)</p>
 								</div>
 							</section>
 
@@ -71,14 +82,15 @@
 								<div class="container">
 									<!-- <h3>Things I Can Do</h3>-->
 									<h3>Sobre lo que hago</h3>
-									<p>Una de las cosas que más me gusta sobre mi trabajo es estar siempre aprendiendo algo nuevo, éstas son algunas de las cosas que he ido aprendiendo en estos años:</p>
+									<p>Una de las cosas que más me gusta sobre mi trabajo es estar siempre aprendiendo algo nuevo, éstas son algunas de las cosas
+									 que he ido aprendiendo en estos años:</p>
 									<ul class="feature-icons">
-										<li class="icon icon-2 solid brands fa-wordpress">Wordpress</li>
-										<li class="icon icon-3 solid fa-code">HTML/CSS/SCSS</li>
-										<li class="icon solid brands fa-angular">Angular</li>
-										<li class="icon icon-2 solid fa-code-branch">Git</li>
-										<li class="icon icon-3 solid fa-file-image">Photoshop</li>
-										<li class="icon solid brands fa-js">JavaScript</li>
+										<li class="icon icon-2 solid brands fa-wordpress" data-aos="flip-left" data-aos-duration="1000">Wordpress</li>
+										<li class="icon icon-3 solid fa-code" data-aos="flip-right" data-aos-duration="1000">HTML/CSS/SCSS</li>
+										<li class="icon solid brands fa-angular" data-aos="flip-left" data-aos-duration="1000">Angular</li>
+										<li class="icon icon-2 solid fa-code-branch" data-aos="flip-right" data-aos-duration="1000">Git</li>
+										<li class="icon icon-3 solid fa-file-image" data-aos="flip-left" data-aos-duration="1000">Photoshop</li>
+										<li class="icon solid brands fa-js" data-aos="flip-right" data-aos-duration="1000">JavaScript</li>
 									</ul>
 								</div>
 							</section>
@@ -386,6 +398,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script>
+			  AOS.init();
+			</script>
 	</body>
 </html>
