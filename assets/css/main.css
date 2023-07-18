@@ -3356,6 +3356,7 @@ input, select, textarea {
 		display: block;
 		margin: 0 auto;
 	}
+	.header-img-mobile{display: none;}
 	.button-kz{
 		background-color: #3BA4B3;
 		border:0px;
@@ -3539,6 +3540,63 @@ input, select, textarea {
 	#contact-kz .col-2{
 		padding-left: 0;
 	}
+	#projects-kz-mobile{display: none;}
 
+
+/*mobile kzteam*/
+@media screen and (max-width: 736px) {
+	#header-kz{
+		text-align: center;
+		padding-top: 20%;
+		padding-bottom: 20%;
+	}
+	.header-img{display: none;}
+	.header-img img{width: 90%;}
+	.header-img-mobile{display: block;}
+	#projects-kz{
+		display: none;
+	}
+	#projects-kz-mobile .info-wrapper{
+		padding: 10%;
+		text-align: center;
+		background-color: rgba(255,255,255,0.8);
+		position: relative;
+		top: 0;
+		background-image: url("../../images/pexels_videos1.mp4");
+		background-size: cover;
+		min-height: 20rem;
+	}
+	.image-box{
+		position: absolute;
+		z-index: -2;
+		width: 100%;
+		padding: 0!important;
+		left: 0;
+	}
+	.video-wrapper-2{height: 42rem;}
+	.divider{
+		left: 40vh;
+	}
+	.brand-img{padding-left: 0;}
+	.brand-img>img{
+		width: 80%;
+		max-width: 10rem;
+		border-radius: 1rem;
+		margin: 0 auto;
+		display: block;
+		margin-top: 2rem;
+	}
+	#contact-kz h4 {
+		font-size: 1.5rem;
+	}
+	.social {
+		height: 4rem;
+		width: 4rem;
+		padding: .5rem;
+		margin: 0 auto;
+
+	}
+	.social>i{font-size: 2.3rem;}
+}
 
 
